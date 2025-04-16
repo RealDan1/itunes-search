@@ -1,7 +1,9 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://itunes-search-backend-nt0u.onrender.com', // Base URL for API calls.
+  baseURL: 'http://localhost:5001/', // Base URL for API calls.
+
+  //when switch to render, do this: "https://itunes-search-backend-nt0u.onrender.com"
 });
 
 export default api;
